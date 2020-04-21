@@ -1,0 +1,316 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* css reset end */
+
+.SmText {
+  font-size: 24px;
+  line-height: 42px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+}
+.MdText {
+  font-size: 64px;
+  line-height: 75px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+}
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  background: url(../week2/banner.png) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.headerContent {
+  color: #fff;
+  margin-top: 100px;
+}
+.headerSmText {
+  font-weight: 700;
+}
+.headerLgText {
+  font-size: 80px;
+  line-height: 94px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+.header h3 {
+  margin-bottom: 64px;
+  margin-left: 15px;
+}
+.socialMedia {
+  margin-left: 15px;
+}
+.sIcon {
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+/* about */
+.about {
+  color: #000;
+}
+.aboutMdText {
+  margin-bottom: 40px;
+}
+.aboutImg {
+  margin-bottom: 24px;
+}
+.aboutContent {
+  padding-bottom: 24px;
+}
+.aboutSmText {
+  margin-bottom: 8px;
+}
+.aboutList {
+  width: 384px;
+  border-top: 1px solid #000;
+  margin: 0 auto;
+  padding-top: 33px;
+  margin-bottom: 24px;
+}
+.aboutList li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.circle {
+  width: 22px;
+  height: 22px;
+  background: #981818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+/* brand */
+.brand {
+  background: #000;
+  color: #fff;
+}
+.brand img {
+  vertical-align: middle;
+}
+.brand h3 {
+  padding-top: 64px;
+  margin-bottom: 16px;
+}
+.brand h4 {
+  margin-bottom: 32px;
+}
+.brandText {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 42px;
+  margin-bottom: 48px;
+}
+.brandImgOne {
+  margin-bottom: 40px;
+}
+.brandImgTwo {
+  margin-right: 24px;
+}
+.brandImg {
+  padding-bottom: 160px;
+  margin-bottom: 75px;
+}
+
+/* work */
+.work {
+  position: relative;
+}
+.workText {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 42px;
+  margin-bottom: 48px;
+}
+.workList {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+.workList img {
+  display: block;
+  margin-bottom: 16px;
+}
+.workList p {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 42px;
+}
+.top {
+  margin-bottom: 58px;
+}
+.middle {
+  margin-bottom: 56px;
+}
+.bottom {
+  padding-bottom: 160px;
+}
+.workBanner {
+  background: url(../week2/photo-1561291386-5be50364cfb5.png) center center
+    no-repeat;
+  background-size: cover;
+  height: 1558px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* contact */
+.contact {
+  color: #fff;
+  background: #000;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.contactInfo {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
